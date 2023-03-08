@@ -1,7 +1,6 @@
 # setting
 sudo apt-get update 
 sudo apt-get upgrade
-sudo apt-get wget
 
 # miniforge
 wget https://github.com/conda-forge/miniforge/releases/download/4.11.0-0/Miniforge-pypy3-4.11.0-0-Linux-aarch64.sh
@@ -22,4 +21,3 @@ cd
 sudo pip3 install opencv-python==4.5.1.48
 sudo pip3 install -U numpy
 sudo python3 -m pip install depthai --user
-cd depthai-python/examples
