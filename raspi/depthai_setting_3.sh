@@ -19,5 +19,5 @@ sudo pip3 install PyOpenGL
 sudo pip3 install pygame_gui -U
 sudo apt install libsdl2-ttf-2.0-0
 sudo pip3 install pywavefront
-sudo git clone https://github.com/cortictechnology/vision_ui.git /home/pi/
-sudo git clone https://github.com/cortictechnology/heartrate_estimation.git /home/pi/
+sudo git clone https://github.com/cortictechnology/vision_ui.git /home/pi
+sudo git clone https://github.com/cortictechnology/heartrate_estimation.git /home/pi
