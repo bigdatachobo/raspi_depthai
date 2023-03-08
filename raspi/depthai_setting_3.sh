@@ -1,8 +1,9 @@
 # 위 코드가 잘 실행되면 아래 코드로 진행
+cd /home/pi/
 sudo git clone https://github.com/luxonis/depthai.git
-cd depthai
+cd /home/pi/depthai
 sudo python3 install_requirements.py
-cd
+cd /home/pi/
 echo 'SUBSYSTEM=="usb", ATTRS{idVendor}=="03e7", MODE="0666"' | sudo tee /etc/udev/rules.d/80-movidius.rules
 sudo udevadm control --reload-rules && sudo udevadm trigger
 
