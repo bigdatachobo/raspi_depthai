@@ -5,6 +5,7 @@ sudo apt-get upgrade
 # miniforge
 wget https://github.com/conda-forge/miniforge/releases/download/4.11.0-0/Miniforge-pypy3-4.11.0-0-Linux-aarch64.sh
 sudo sh Miniforge-pypy3-4.11.0-0-Linux-aarch64.sh
+source ~/.bashrc
 
 # python 3.8
 conda create -n depai python=3.8 -y
